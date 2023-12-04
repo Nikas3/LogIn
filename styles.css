@@ -1,0 +1,54 @@
+div {
+    text-align: center;
+    position: relative;
+    bottom: 330px;
+    left: 30px;
+}
+
+body {
+    background: linear-gradient(to right top, blue, skyblue, lightsteelblue, cyan);
+    font-family: 'Play', sans-serif;
+}
+
+img {
+    position: relative;
+    border-radius: 15%;
+    top: 150px;
+    left: 500px;
+    width: 400px;
+    opacity: 0.3;
+    box-shadow: 4px 5px 5px 0px black;
+}
+
+.email {
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    opaity: 0.3;
+    font-size: 20px;
+}
+
+.password {
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    opaity: 0.3;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    position: relative;
+    left: 615px;
+    bottom: 300px;
+    font-family:'Play', sans-serif;
+}
+
+.email:hover {
+    transition: 1s;
+    background: linear-gradient(to right, cyan, lightsteelblue)
+}
+
+.password:hover {
+    transition: 1s;
+    background: linear-gradient(to right, deepskyblue, blue)
+}
